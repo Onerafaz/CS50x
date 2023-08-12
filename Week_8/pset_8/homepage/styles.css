@@ -1,0 +1,89 @@
+/* Custom CSS for the logo image */
+.logo-image {
+    height: 30px; /* Set the desired height for the image */
+    margin-right: 10px; /* Add some spacing between the image and the navigation text */
+}
+
+/* Highlighted text style */
+.highlight {
+    background-color: yellow;
+}
+
+/* Material Design color palette */
+/* Primary color */
+.primary-color {
+    color: #2196F3; /* Blue 500 */
+}
+
+/* Secondary color */
+.secondary-color {
+    color: #FFC107; /* Amber 500 */
+}
+
+/* Background color */
+.background-color {
+    background-color: #343434; /* Grey 100 (#F5F5F5) */
+    color: #F5F5F5;
+}
+
+/* Button styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2196F3; /* Blue 500 */
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #1565C0; /* Blue 700 */
+}
+
+/* Card styles */
+.card {
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 20px;
+}
+
+/* Typography */
+.heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subheading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #616161; /* Grey 700 */
+    margin-bottom: 10px;
+}
+
+.paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #212121; /* Grey 900 */
+    color: #FFFFFF;
+}
+
+/* Container styles */
+.container {
+    text-align: center;
+}
+
+.myUL {
+    display: inline-block;
+    text-align: left;
+}

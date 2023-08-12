@@ -1,0 +1,15 @@
+Times:
+
+10 simulations: 0m0.054s
+100 simulations: 0m0.028s
+1000 simulations: 0m0.033s
+10000 simulations: 0m0.095s
+100000 simulations: 0m1.059s
+1000000 simulations: 0m7.506s
+
+Questions:
+
+Which predictions, if any, proved incorrect as you increased the number of simulations?: Japan was missing in a few simulations but the other results seem reasonable
+
+Suppose you're charged a fee for each second of compute time your program uses.
+After how many simulations would you call the predictions "good enough"?: 100 simulations seem good enough given the number of teams involved and the outcome of all of the simulations
