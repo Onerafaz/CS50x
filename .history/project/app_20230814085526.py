@@ -7,7 +7,7 @@ from flask import Flask, flash, redirect, render_template, request, url_for
 app = Flask(__name__)
 
 
-conn = sqlite3.connect('instance/test.db')
+conn = sqlite3.connect('/instance/test.db')
 
 conn.execute('''CREATE TABLE COMPANY
          (ID INT PRIMARY KEY     NOT NULL,
