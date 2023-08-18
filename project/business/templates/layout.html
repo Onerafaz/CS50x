@@ -38,8 +38,8 @@
                         </ul>
                     {% else %}
                         <ul class="navbar-nav mx-auto">
-                            <li class="nav-item pxlg-4"><a class="nav-link text-uppercase" href="login">Login</a></li>
-                            <li class="nav-item pxlg-4"><a class="nav-link text-uppercase" href="register">Register</a></li>
+                            <li class="nav-item pxlg-4"><a class="nav-link text-uppercase" href="login.html">Login</a></li>
+                            <li class="nav-item pxlg-4"><a class="nav-link text-uppercase" href="register.html">Register</a></li>
                         </ul>
                     {% endif %}
                 </div>
@@ -53,7 +53,10 @@
                 </div>
             </header>
         {% endif %}
-
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            {% block main %}
+            {% endblock %}
+        </div>
         <section class="page-section clearfix">
             <div class="container">
                 <div class="intro">
